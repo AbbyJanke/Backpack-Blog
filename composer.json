@@ -1,5 +1,5 @@
 {
-    "name": "abbyjanke/backpackblog",
+    "name": "nomadtechiemike/backpackblog",
     "description": "Blog package for Backpack a Laravel Admin Interface",
     "keywords": [
         "backpack",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Abby",
+            "name": "Nomad",
             "email": "me@abbyjanke.com",
             "homepage": "http://www.abbyjanke.com",
             "role": "Lead Developer"
@@ -24,24 +24,24 @@
             "role": "Chief Architect"
         }
     ],
-    "homepage": "https://github.com/AbbyJanke/BackpackBlog",
+    "homepage": "https://github.com/nomadtechiemike/BackpackBlog",
     "minimum-stability": "dev",
     "require": {
-      "laravel/framework": "^5.5.*",
-      "backpack/crud": "^3.3",
+      "laravel/framework": "6.*",
+      "backpack/crud": "^4",
       "cviebrock/eloquent-sluggable": "^4.0",
       "nickurt/laravel-akismet": "1.2.0",
       "abbyjanke/backpackmeta": "1.*"
     },
     "autoload": {
         "psr-4": {
-            "AbbyJanke\\Blog\\": "src"
+            "nomadtechiemike\\Blog\\": "src"
         }
     },
     "extra": {
       "laravel": {
           "providers": [
-              "AbbyJanke\\Blog\\BlogServiceProvider"
+              "nomadtechiemike\\Blog\\BlogServiceProvider"
           ]
       }
     }
